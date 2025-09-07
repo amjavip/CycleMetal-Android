@@ -1,8 +1,9 @@
-package com.example.cyclemetal.models
+package com.example.cyclemetal.models.order
 
 import java.time.LocalDateTime
 import java.util.UUID
 
+//Order model to store data from the backend
 data class Order(
     val id: UUID,
     val idSeller: UUID,
